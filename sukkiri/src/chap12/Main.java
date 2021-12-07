@@ -13,7 +13,7 @@ public class Main {
 		Matango m = new Matango();		
 		c.name = "アサカ";
 		c.attack(m);
-		c.fireball(m);
+		// c.fireball(m);
 	}
 
 }

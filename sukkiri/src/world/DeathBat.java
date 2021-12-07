@@ -10,7 +10,7 @@ public class DeathBat extends FlyingMonster {
 	
 	@Override
 	public void attack(Hero h) {
-		System.out.println(h.name + "を突っつく");
+		System.out.println(h.getName() + "を突っつく");
 		
 	}
 
