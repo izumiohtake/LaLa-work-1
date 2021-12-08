@@ -10,6 +10,7 @@ public class Main02 {
 		Monster m = new Slime();
 		s.run();
 		m.run();
+
 	}
 
 }

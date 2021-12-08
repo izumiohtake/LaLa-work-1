@@ -20,6 +20,7 @@ public class Matango extends Monster {
 	public void attack(Hero h) {
 		System.out.println("キノコ" + this.suffix + "の攻撃!");
 		System.out.println("10のダメージ");
+
 		int nowHp = h.getHp() - 10;
 		h.setHp(nowHp);
 		// System.out.println(h.name + "のHPが" + h.hp + "になった。");
