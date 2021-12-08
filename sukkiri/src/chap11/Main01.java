@@ -1,7 +1,7 @@
 package chap11;
 
-import world.characters.Dancer;
-import world.monsters.Matango;
+import world.Dancer;
+import world.Matango;
 
 public class Main01 {
 

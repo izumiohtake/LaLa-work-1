@@ -1,13 +1,13 @@
 package chap09;
 
-import world.characters.Hero;
-import world.monsters.Matango;
+import world.Hero;
+import world.Matango;
 
 public class Main04 {
 
 	public static void main(String[] args) {
 		Matango m = new Matango();
-		m.setSuffix('A');
+		m.suffix = 'A';
 		
 		Hero h = new Hero("タロウ");
 		// h.takeWeapon();

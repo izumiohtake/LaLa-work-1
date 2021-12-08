@@ -1,4 +1,4 @@
-package world.characters;
+package world;
 
 public class King {
 	public void talk(Hero h) {

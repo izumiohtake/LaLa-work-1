@@ -1,9 +1,9 @@
 package chap11;
 
-import world.characters.Hero;
-import world.monsters.DeathBat;
-import world.monsters.Goblin;
-import world.monsters.WereWolf;
+import world.DeathBat;
+import world.Goblin;
+import world.Hero;
+import world.WereWolf;
 
 public class Main03 {
 

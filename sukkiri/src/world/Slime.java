@@ -1,6 +1,4 @@
-package world.monsters;
-
-import world.characters.Hero;
+package world;
 
 public class Slime extends Monster {
 	public void run() {

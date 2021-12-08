@@ -1,11 +1,9 @@
-package world.monsters;
-
-import world.characters.Hero;
+package world;
 
 public class Matango extends Monster {
-	private int hp;
+	public int hp;
 	// public final int LEVEL = 10;
-	private char suffix;
+	public char suffix;
 	
 	public Matango() {
 		this.hp = 50;
@@ -29,17 +27,5 @@ public class Matango extends Monster {
 	
 	public void status() {
 		System.out.println(this.suffix + "のHPは" + this.hp);
-	}
-	public int getHp() {
-		return hp;
-	}
-	public void setHp(int hp) {
-		this.hp = hp;
-	}
-	public char getSuffix() {
-		return suffix;
-	}
-	public void setSuffix(char suffix) {
-		this.suffix = suffix;
 	}
 }

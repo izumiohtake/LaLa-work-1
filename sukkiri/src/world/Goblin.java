@@ -1,12 +1,10 @@
-package world.monsters;
-
-import world.characters.Hero;
+package world;
 
 public class Goblin extends WalkingMonster {
 	
 	public Goblin() {
 		System.out.println("ゴブリンだよ～");
-		this.setHp(70);
+		this.hp = 70;
 	}
 
 	@Override

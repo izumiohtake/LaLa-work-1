@@ -1,9 +1,7 @@
-package world.characters;
-
-import world.monsters.Monster;
+package world;
 
 public class SuperHero extends Hero {
-	private boolean flying;
+	boolean flying;
 	
 	public SuperHero() {
 		System.out.println("SuperHeroのコンストラクタが動作");
@@ -28,14 +26,6 @@ public class SuperHero extends Hero {
 		if (this.flying) {
 			super.attack(m);
 		}
-	}
-
-	public boolean isFlying() {
-		return flying;
-	}
-
-	public void setFlying(boolean flying) {
-		this.flying = flying;
 	}
 	
 }

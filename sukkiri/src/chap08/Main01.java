@@ -1,8 +1,8 @@
 package chap08;
 
-import world.characters.Cleric;
-import world.characters.Hero;
-import world.monsters.Matango;
+import world.Cleric;
+import world.Hero;
+import world.Matango;
 
 public class Main01 {
 
@@ -13,12 +13,12 @@ public class Main01 {
 		// System.out.println("勇者" + h.name + "を生み出しました！");
 		
 		Matango m1 = new Matango();
-		m1.setHp(50);
-		m1.setSuffix('A');
+		m1.hp = 50;
+		m1.suffix = 'A';
 		
 		Matango m2 = new Matango();
-		m2.setHp(40);
-		m2.setSuffix('B');
+		m2.hp = 40;
+		m2.suffix = 'B';
 		
 		h.slip();
 		m1.run();
@@ -26,7 +26,7 @@ public class Main01 {
 		h.run();
 		
 		Cleric cleric = new Cleric();
-		cleric.setName("ゆうゆう");
+		cleric.name = "ゆうゆう";
 		cleric.selfAid();
 		cleric.pray(2);
 	}

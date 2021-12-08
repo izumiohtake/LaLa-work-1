@@ -1,6 +1,4 @@
-package world.monsters;
-
-import world.characters.Hero;
+package world;
 
 public class WereWolf extends WalkingMonster {
 

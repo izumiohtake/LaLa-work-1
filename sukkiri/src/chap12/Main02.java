@@ -1,7 +1,7 @@
 package chap12;
 
-import world.monsters.Monster;
-import world.monsters.Slime;
+import world.Monster;
+import world.Slime;
 
 public class Main02 {
 

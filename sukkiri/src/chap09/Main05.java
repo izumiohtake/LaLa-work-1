@@ -1,20 +1,20 @@
 package chap09;
 
-import world.characters.Thief;
+import world.Thief;
 
 public class Main05 {
 
 	public static void main(String[] args) {
 		int baseHp = 25;
 		Thief t = new Thief("Asaka", baseHp);
-		System.out.println(baseHp + " : " + t.getHp());
-		t.setHp(heal(baseHp));
+		System.out.println(baseHp + " : " + t.hp);
+		t.hp = heal(baseHp);
 		heal(t);
-		System.out.println(baseHp + " : " + t.getHp());
+		System.out.println(baseHp + " : " + t.hp);
 	}
 	
 	public static void heal (Thief thief) {
-		thief.setHp(thief.getHp() + 10);
+		thief.hp = thief.hp + 10;
 	}
 	
 	public static int heal(int hp) {

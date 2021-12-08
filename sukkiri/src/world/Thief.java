@@ -1,6 +1,4 @@
-package world.characters;
-
-import world.monsters.Monster;
+package world;
 
 /**
  * 練習問題 9.4  p.364
@@ -8,9 +6,9 @@ import world.monsters.Monster;
  * Thief -- 泥棒
  */
 public class Thief extends Character {
-	private String name;
-	private int hp;
-	private int mp;
+	String name;
+	public int hp;
+	int mp;
 	
 	public Thief () {
 		this("五右衛門", 40, 5);
@@ -33,30 +31,6 @@ public class Thief extends Character {
 	@Override
 	public void attack(Monster m) {
 		System.out.println("5ポイントの攻撃");
-	}
-
-	public String getName() {
-		return name;
-	}
-
-	public void setName(String name) {
-		this.name = name;
-	}
-
-	public int getHp() {
-		return hp;
-	}
-
-	public void setHp(int hp) {
-		this.hp = hp;
-	}
-
-	public int getMp() {
-		return mp;
-	}
-
-	public void setMp(int mp) {
-		this.mp = mp;
 	}
 
 }

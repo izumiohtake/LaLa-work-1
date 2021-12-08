@@ -1,8 +1,8 @@
 package chap12;
 
-import world.characters.Character;
-import world.characters.Wizard;
-import world.monsters.Matango;
+import world.Character;
+import world.Matango;
+import world.Wizard;
 
 public class Main {
 
@@ -10,7 +10,7 @@ public class Main {
 		Character c = new Wizard();
 		Wizard w = (Wizard) c;
 		Matango m = new Matango();		
-		c.setName("アサカ");
+		c.name = "アサカ";
 		c.attack(m);
 		// c.fireball(m);
 	}

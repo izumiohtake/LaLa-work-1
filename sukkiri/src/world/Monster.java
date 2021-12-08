@@ -1,6 +1,4 @@
-package chap11_interface;
-
-import world.Hero;
+package world;
 
 public abstract class Monster {
 	public int hp;
@@ -8,5 +6,7 @@ public abstract class Monster {
 	
 	public abstract void attack(Hero h);
 	
-	public abstract void run();
+	public void run() {
+		System.out.println("モンスターは逃げ出した。");
+	}
 }	
