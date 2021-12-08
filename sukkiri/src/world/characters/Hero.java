@@ -1,4 +1,6 @@
-package world;
+package world.characters;
+
+import world.monsters.Monster;
 
 public class Hero extends Character {
 	private String name = "ミナト";
@@ -15,7 +17,7 @@ public class Hero extends Character {
 
 	public void attack(Monster m) {
 		System.out.println(this.name + "の攻撃！");
-		m.hp = m.hp - 5;
+		m.setHp(m.getHp() - 5);
 		System.out.println("5ポイントのダメージを与えた");
 		
 		System.out.println("モンスターから2ポイントの反撃を受けた");

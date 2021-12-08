@@ -1,7 +1,7 @@
 package chap12;
 
-import world.Hero;
-import world.SuperHero;
+import world.characters.Hero;
+import world.characters.SuperHero;
 
 public class Main03 {
 

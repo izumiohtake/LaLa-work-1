@@ -1,7 +1,7 @@
 package chap13;
 
-import world.Hero;
-import world.King;
+import world.characters.Hero;
+import world.characters.King;
 
 public class Main01 {
 

@@ -1,6 +1,6 @@
 package chap11_p433;
 
-import world.Hero;
+import world.characters.Hero;
 
 public abstract class Monster {
 	public int hp;

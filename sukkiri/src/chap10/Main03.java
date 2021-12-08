@@ -1,7 +1,7 @@
 package chap10;
 
-import world.Hero;
-import world.PoisonMatango;
+import world.characters.Hero;
+import world.monsters.PoisonMatango;
 
 public class Main03 {
 

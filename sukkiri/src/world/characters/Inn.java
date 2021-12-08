@@ -1,4 +1,4 @@
-package world;
+package world.characters;
 
 public class Inn {
 	public void checkIn(Hero h) {

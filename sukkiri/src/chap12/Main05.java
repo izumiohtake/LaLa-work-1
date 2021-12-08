@@ -1,9 +1,9 @@
 package chap12;
 
-import world.DeathBat;
-import world.Goblin;
-import world.Monster;
-import world.Slime;
+import world.monsters.DeathBat;
+import world.monsters.Goblin;
+import world.monsters.Monster;
+import world.monsters.Slime;
 
 public class Main05 {
 

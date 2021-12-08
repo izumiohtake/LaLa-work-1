@@ -1,4 +1,4 @@
-package world;
+package world.monsters;
 
 public abstract class WalkingMonster extends Monster {
 	

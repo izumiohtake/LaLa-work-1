@@ -1,14 +1,14 @@
 package chap10;
 
-import world.Hero;
-import world.Matango;
-import world.SuperHero;
+import world.characters.Hero;
+import world.characters.SuperHero;
+import world.monsters.Matango;
 
 public class Main01 {
 
 	public static void main(String[] args) {
 		Matango m = new Matango();
-		m.suffix = 'B';
+		m.setSuffix('B');
 		
 		Hero h = new Hero();
 		h.attack(m);

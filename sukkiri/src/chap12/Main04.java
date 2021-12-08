@@ -1,9 +1,9 @@
 package chap12;
 
-import world.Character;
-import world.Hero;
-import world.Thief;
-import world.Wizard;
+import world.characters.Character;
+import world.characters.Hero;
+import world.characters.Thief;
+import world.characters.Wizard;
 
 public class Main04 {
 
@@ -16,8 +16,8 @@ public class Main04 {
 		c[4] = new Wizard();
 		
 		for (Character ch : c) {
-			ch.hp = ch.hp + 50;
-			System.out.println(ch.name + ":" + ch.hp);
+			ch.setHp(ch.getHp() + 50);
+			System.out.println(ch.getName() + ":" + ch.getHp());
 		}
 	}
 

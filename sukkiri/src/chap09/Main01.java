@@ -1,6 +1,6 @@
 package chap09;
 
-import world.Hero;
+import world.characters.Hero;
 
 public class Main01 {
 
